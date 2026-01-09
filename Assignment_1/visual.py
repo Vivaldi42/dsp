@@ -2,7 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
-    data = pd.read_csv("sine_cosine.csv")
+    # data = pd.read_csv("sine_cosine.csv")
+    data = pd.read_csv("sweep.csv")
 
     n = data["n"]
     cos_vals = data["cos"]
